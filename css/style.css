@@ -1,0 +1,268 @@
+/*=========RESET CSS=========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* GLOBAL */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.wrapper{
+    height: 100%;
+    width: 1120px;
+    margin: 0 auto;
+}
+/* GLOBAL */
+
+
+header{
+    position: absolute;
+    top: 0;
+    height: 66px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+nav{
+    height: 100%;
+    width: 780.10px;
+    float: right;
+}
+
+nav ul {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    float: right;
+    vertical-align: baseline;
+
+}
+
+nav a{
+    vertical-align: baseline;
+    line-height: 66px;
+}
+
+nav li {
+    height: 100%;
+    display: block;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-left: 90px;
+    vertical-align: baseline;
+}
+
+
+.logo{
+    display: inline;
+    padding: 23px 0 0 0 ;
+    float: left ;
+}
+
+/******************** HEADER */
+
+/* MAIN */
+
+/* SECTION1 */
+
+.section1{
+    height: 612px;
+    width: 100%;
+    background-image: url(../banner.png);
+}
+
+h1{
+    padding: 240px 0 0 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+#subtitle{
+    padding: 25px 0 0 0;
+    margin: 0;
+    text-align: center;
+    font-size: 21px;
+    color: white;
+}
+#section1-button{
+    width: 166px; 
+    height: 48px;
+    display: block;
+    margin: 25px auto;
+    background-color: #ca0500;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
+
+/******************* SECTION1 */
+
+/* SECTION2 */
+
+.section2{
+    height: 705px;
+    width: 100%;
+    background: linear-gradient(95deg, rgba(249,249,249,1) 50%, rgba(27,27,27,1) 50%);
+    font-size: 15px;
+
+}
+
+.article-left{
+    width: 495px;
+    float: left;
+}
+
+.article-right{
+    width: 495px;
+    float: right;
+    color: white;
+}
+
+article{
+    margin-top: 62px;
+    line-height: 1.4;
+}
+
+h2{
+    font-size: 36px;
+    text-transform: capitalize;
+}
+
+article p:first-of-type{
+    font-size: 22px;
+    margin-bottom: 22px;
+    font-style: italic;
+}
+
+article p:nth-of-type(2){
+    margin-top: 23px;
+}
+
+article p:nth-of-type(3){
+    margin-top: 65px;
+}
+
+h2::after{
+    content: '.';
+	font-size: 0;
+	display: block;
+	height: 2px;
+	width: 38px;
+	background: #ca0500;
+	margin: 25px 0 28px;
+}
+
+/****** SECTION2 */
+
+/****************** MAIN */
+
+/* FOOTER */
+
+footer{
+    height: 177px;
+    background-color: #111111;
+    color: #999999;
+    font-size: 13px;
+}
+
+.column{
+    margin-top: 28px;
+    display: block;
+    float: left;
+}
+
+.column:not(:last-of-type){
+    margin-right: 79px;
+}
+
+h3{
+    color:white;
+    text-transform: uppercase;
+}
+
+.column li {
+    margin: 10px 0 10px
+}
+
+h3::after{
+    content: ".";
+    font-size: 0;
+    display: block;
+    height: 2px;
+    width: 200px;
+    margin: 15px 0 15px;
+    background: #292929;
+}
+
+.socials li {
+    width: 43px;
+    height: 43px;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 43px;
+}
+
+.column p {
+    margin-top: 30px;
+}
+
+/********** FOOTER */
